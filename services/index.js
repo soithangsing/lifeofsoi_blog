@@ -133,3 +133,7 @@ const result = await request(graphqlAPI, query);
 
 return result.categories;
 }
+
+export const submitComment = async(obj) => {
+  
+}
